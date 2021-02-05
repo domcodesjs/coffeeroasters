@@ -1,0 +1,19 @@
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  margin-top: 3.2rem;
+}
+
+.nav__logo {
+  width: 16rem;
+}
+
+.nav__menu-open {
+  background: none;
+  border: none;
+  outline: none;
+}
+/* end nav */

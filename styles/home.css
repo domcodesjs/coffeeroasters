@@ -1,1 +1,94 @@
 @import 'base.css';
+@import 'shared.css';
+
+/* hero */
+.hero {
+  margin-top: 4rem;
+  text-align: center;
+  background: url(../assets/home/mobile/image-hero-coffeepress.jpg);
+  padding: 10rem 2.4rem;
+  border-radius: 1rem;
+  background-size: 100% 100%;
+}
+
+.hero__content h1 {
+  color: var(--color-light-cream);
+  font-size: 4rem;
+  line-height: 1.1;
+}
+
+.hero__content p {
+  margin-top: 2.4rem;
+  color: var(--color-light-cream);
+  line-height: 1.5;
+}
+
+.hero__content button {
+  margin-top: 4rem;
+  padding: 1.6rem 3rem;
+  border-radius: 0.6rem;
+  border: none;
+  color: var(--color-light-cream);
+  font-size: 1.8rem;
+  background: var(--color-dark-cyan);
+}
+/* end hero */
+
+/* collection */
+.collection {
+  margin-top: 12rem;
+}
+
+.collection h1 {
+  font-size: 4rem;
+  text-align: center;
+  background-color: --color-light-cream;
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-grey),
+    var(--color-light-cream)
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.collection__choices {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 4.8rem;
+}
+
+.collection__choices__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection__choices__item:first-child {
+  margin-top: 3.2rem;
+}
+
+.collection__choices__item img {
+  width: 15rem;
+}
+
+.collection__choices__item__content {
+  width: 28.2rem;
+}
+
+.collection__choices__item__content h3 {
+  text-align: center;
+  margin-top: 2.4rem;
+}
+
+.collection__choices__item__content p {
+  margin-top: 1.6rem;
+  text-align: center;
+}
+/* end collection */

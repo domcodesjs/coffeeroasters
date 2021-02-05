@@ -20,7 +20,7 @@ html {
 body {
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   background: var(--color-light-cream);
 }
 
@@ -36,6 +36,11 @@ h5 {
 
 p {
   margin: 0;
+}
+
+button {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
 }
 
 img {
@@ -60,6 +65,9 @@ img {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  body {
+    font-size: 1.6rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
