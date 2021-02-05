@@ -17,3 +17,43 @@
   outline: none;
 }
 /* end nav */
+
+/* footer */
+.footer {
+  margin: 12rem 0 7.2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.4rem 0;
+  background: var(--color-dark-grey-blue);
+}
+
+.footer__site__links {
+  margin-top: 4.8rem;
+}
+
+.footer__site__links li {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: var(--color-grey);
+}
+
+.footer__site__links li:nth-of-type(even) {
+  margin: 2.4rem 0;
+}
+
+.footer__social__links {
+  margin-top: 4.8rem;
+}
+
+.footer__social__links li {
+  display: inline-block;
+}
+
+.footer__social__links li:nth-of-type(even) {
+  margin: 0 2.4rem;
+}
+/* end footer */
