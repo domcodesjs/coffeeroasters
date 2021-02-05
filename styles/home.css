@@ -162,5 +162,51 @@
 .why__choices__item__content p {
   text-align: center;
 }
-
 /* end why */
+
+/* how */
+.how {
+  margin-top: 12rem;
+}
+
+.how h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.how__choices {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5.6rem;
+  margin-top: 8rem;
+}
+
+.how__choices__item h2 {
+  font-size: 7.2rem;
+  text-align: center;
+  color: var(--color-pale-orange);
+}
+
+.how__choices__item__content h3 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.how__choices__item__content {
+  margin-top: 2.4rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.how__btn {
+  display: block;
+  margin: 8rem auto 0 auto;
+  text-align: center;
+  padding: 1.6rem 3rem;
+  border-radius: 0.6rem;
+  border: none;
+  color: var(--color-light-cream);
+  font-size: 1.8rem;
+  background: var(--color-dark-cyan);
+}
+/* end how */
