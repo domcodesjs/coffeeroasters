@@ -99,16 +99,54 @@
 
 .collection__choices__item__content {
   width: 28.2rem;
+  text-align: center;
+  margin-left: 3.2rem;
 }
 
 .collection__choices__item__content h3 {
-  text-align: center;
   margin-top: 2.4rem;
+  font-size: 2.4rem;
 }
 
 .collection__choices__item__content p {
   margin-top: 1.6rem;
-  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .collection {
+    margin-top: 14.4rem;
+    position: relative;
+    padding-top: 6rem;
+  }
+
+  .collection h1 {
+    font-size: 9.6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+  .collection__choices__item {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collection__choices__item img {
+    width: 22rem;
+  }
+
+  .collection__choices__item__content {
+    text-align: left;
+  }
+
+  .collection__choices__item__content h3 {
+    margin-top: -2.2rem;
+  }
 }
 /* end collection */
 
@@ -130,14 +168,14 @@
   padding: 0 2.4rem;
 }
 
-.why h1 {
+.why__title {
   padding-top: 6.4rem;
   font-size: 2.8rem;
   color: var(--color-light-cream);
   text-align: center;
 }
 
-.why p {
+.why__text {
   text-align: center;
   color: var(--color-light-cream);
   line-height: 1.5;
@@ -180,6 +218,52 @@
 
 .why__choices__item__content p {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .why__bg {
+    height: 57rem;
+  }
+
+  .why {
+    margin-top: 14.4rem;
+  }
+
+  .why__title {
+    padding-top: 5.6rem;
+    font-size: 3.2rem;
+  }
+
+  .why__text {
+    width: 54rem;
+    margin: 2.4rem auto 0 auto;
+  }
+
+  .why__choices__item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4.2rem 0;
+  }
+
+  .why__choices__item:first-child {
+    margin-top: 7rem;
+  }
+
+  .why__choices__item__content {
+    margin-left: 5.6rem;
+  }
+
+  .why__choices__item__content h3 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .why__choices__item__content p {
+    margin-top: 1.6rem;
+    text-align: left;
+    width: 34rem;
+  }
 }
 /* end why */
 
