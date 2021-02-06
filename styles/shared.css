@@ -56,4 +56,14 @@
 .footer__social__links li:nth-of-type(even) {
   margin: 0 2.4rem;
 }
+
+@media (min-width: 768px) {
+  .footer__site__links li {
+    display: inline;
+  }
+
+  .footer__site__links li:nth-of-type(even) {
+    margin: 0 3.2rem;
+  }
+}
 /* end footer */
