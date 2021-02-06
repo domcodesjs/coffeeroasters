@@ -100,7 +100,6 @@
 .collection__choices__item__content {
   width: 28.2rem;
   text-align: center;
-  margin-left: 3.2rem;
 }
 
 .collection__choices__item__content h3 {
@@ -142,6 +141,7 @@
 
   .collection__choices__item__content {
     text-align: left;
+    margin-left: 3.2rem;
   }
 
   .collection__choices__item__content h3 {
