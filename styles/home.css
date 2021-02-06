@@ -244,10 +244,16 @@
     align-items: center;
     justify-content: center;
     padding: 4.2rem 0;
+    width: 57rem;
+    margin: 0 auto;
   }
 
   .why__choices__item:first-child {
     margin-top: 7rem;
+  }
+
+  .why__choices__item img {
+    width: 5.6rem;
   }
 
   .why__choices__item__content {
@@ -297,6 +303,10 @@
   color: var(--color-pale-orange);
 }
 
+.how__choices__item__content {
+  margin-top: 3.2rem;
+}
+
 .how__choices__item__content h3 {
   font-size: 2.8rem;
   text-align: center;
@@ -319,5 +329,45 @@
   color: var(--color-light-cream);
   font-size: 1.8rem;
   background: var(--color-dark-cyan);
+}
+
+@media (min-width: 768px) {
+  .how {
+    margin-top: 14.4rem;
+    width: 100%;
+  }
+
+  .how h1 {
+    text-align: left;
+  }
+
+  .how__choices {
+    margin-top: 4rem;
+    grid-template-columns: repeat(3, minmax(0, 23rem));
+    grid-gap: 1.6rem;
+  }
+
+  .how__choices__item {
+    align-items: flex-start;
+  }
+
+  .how__choices__item h2 {
+    text-align: left;
+  }
+
+  .how__choices__item__content h3 {
+    text-align: left;
+    line-height: 1.2;
+    width: auto;
+  }
+
+  .how__choices__item__content p {
+    text-align: left;
+    width: auto;
+  }
+
+  .how__btn {
+    margin: 6rem 0 0 0;
+  }
 }
 /* end how */
