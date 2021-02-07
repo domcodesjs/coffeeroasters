@@ -486,10 +486,18 @@
 @media (min-width: 992px) {
   .how__choices {
     grid-gap: 9rem;
-    grid-template-columns: repeat(3, minmax(0, 28rem));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
   .how__choices__item__content h3 {
-    width: 19rem;
+    width: 20rem;
+    font-size: 3.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .how__choices__item__content p {
+    max-width: 38rem;
   }
 }
 /* end how */

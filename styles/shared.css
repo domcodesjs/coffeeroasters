@@ -11,10 +11,44 @@
   width: 16rem;
 }
 
+.nav__menu__desktop {
+  display: none;
+}
+
 .nav__menu-open {
   background: none;
   border: none;
   outline: none;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    margin-top: 4rem;
+  }
+
+  .nav__logo {
+    width: 24rem;
+  }
+
+  .nav__menu__desktop {
+    display: block;
+  }
+
+  .nav__menu__desktop li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--color-grey);
+  }
+
+  .nav__menu__desktop li:not(:first-child) {
+    margin-left: 3.2rem;
+  }
+
+  .nav__menu-open {
+    display: none;
+  }
 }
 /* end nav */
 
@@ -92,7 +126,7 @@
   }
 
   .footer__social__links li {
-    margin-left: 2.4rem;
+    padding-left: 2.4rem;
   }
 }
 /* end footer */
