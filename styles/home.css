@@ -4,10 +4,12 @@
 /* hero */
 .hero {
   margin-top: 4rem;
-  background-image: url(../assets/home/mobile/image-hero-coffeepress.jpg);
   padding: 10rem 2.4rem;
   border-radius: 1rem;
-  background-size: 100% 100%;
+  background-image: url(../assets/home/mobile/image-hero-coffeepress.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero__content {
@@ -36,6 +38,13 @@
   background: var(--color-dark-cyan);
 }
 
+@media (min-width: 576px) {
+  .hero__content {
+    max-width: 42rem;
+    margin: 0 auto;
+  }
+}
+
 @media (min-width: 768px) {
   .hero {
     padding: 10.4rem 5.8rem;
@@ -44,7 +53,8 @@
 
   .hero__content {
     text-align: left;
-    width: 40rem;
+    max-width: 40rem;
+    margin: 0;
   }
 
   .hero__content h1 {
