@@ -482,4 +482,14 @@
     margin: 6rem 0 0 0;
   }
 }
+
+@media (min-width: 992px) {
+  .how__choices {
+    grid-gap: 9rem;
+    grid-template-columns: repeat(3, minmax(0, 28rem));
+  }
+  .how__choices__item__content h3 {
+    width: 19rem;
+  }
+}
 /* end how */

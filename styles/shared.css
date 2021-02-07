@@ -70,4 +70,29 @@
     margin: 0 3.2rem;
   }
 }
+
+@media (min-width: 992px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4.8rem 8.8rem;
+    margin: 20rem 0 8.8rem 0;
+  }
+
+  .footer__site__links {
+    margin: 0;
+  }
+
+  .footer__social__links li:nth-of-type(even) {
+    margin: 0;
+  }
+
+  .footer__social__links {
+    margin: 0;
+  }
+
+  .footer__social__links li {
+    margin-left: 2.4rem;
+  }
+}
 /* end footer */
