@@ -51,6 +51,29 @@
     font-size: 4.8rem;
   }
 }
+
+@media (min-width: 992px) {
+  .hero {
+    padding: 12rem 5.6rem;
+  }
+
+  .hero__content h1 {
+    font-size: 6.4rem;
+    width: 50rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    padding: 16rem 8rem;
+    background-image: url(../assets/home/desktop/image-hero-coffeepress.jpg);
+  }
+
+  .hero__content h1 {
+    font-size: 7.2rem;
+    width: 50rem;
+  }
+}
 /* end hero */
 
 /* collection */
@@ -146,6 +169,45 @@
 
   .collection__choices__item__content h3 {
     margin-top: -2.2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .collection {
+    padding-top: 12rem;
+  }
+
+  .collection h1 {
+    font-size: 12rem;
+  }
+
+  .collection__choices {
+    grid-template-columns: repeat(4, minmax(0, 26rem));
+    grid-gap: 2.4rem;
+    justify-content: center;
+  }
+
+  .collection__choices__item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .collection__choices__item:first-child {
+    margin-top: 0;
+  }
+  .collection__choices__item img {
+    width: 25rem;
+    padding-left: 5.8rem;
+  }
+
+  .collection__choices__item__content {
+    margin-top: 7.2rem;
+    text-align: center;
+  }
+
+  .collection__choices__item__content p {
+    max-width: 22rem;
+    margin: 2.4rem auto 0 auto;
   }
 }
 /* end collection */
@@ -269,6 +331,56 @@
     margin-top: 1.6rem;
     text-align: left;
     width: 34rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .why__bg {
+    height: 57rem;
+  }
+
+  .why {
+    width: 100%;
+  }
+
+  .why__title {
+    font-size: 4rem;
+  }
+
+  .why__text {
+    margin-top: 3.2rem;
+  }
+
+  .why__choices {
+    margin-top: 8.8rem;
+    grid-template-columns: repeat(3, minmax(0, 35rem));
+    justify-content: center;
+  }
+
+  .why__choices__item {
+    width: auto;
+    flex-direction: column;
+    margin: 0;
+    padding: 7.2rem 0 4.8rem 0;
+  }
+
+  .why__choices__item:first-child {
+    margin: 0;
+  }
+
+  .why__choices__item__content {
+    margin: 0;
+  }
+
+  .why__choices__item__content h3 {
+    text-align: center;
+    margin-top: 5.6rem;
+  }
+
+  .why__choices__item__content p {
+    width: auto;
+    text-align: center;
+    margin-top: 2.4rem;
   }
 }
 /* end why */

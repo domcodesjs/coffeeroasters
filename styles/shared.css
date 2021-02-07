@@ -58,6 +58,10 @@
 }
 
 @media (min-width: 768px) {
+  .footer {
+    margin: 14.4rem 0 7.2rem 0;
+  }
+
   .footer__site__links li {
     display: inline;
   }
