@@ -77,6 +77,9 @@ img {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  /* .wrapper {
+    max-width: 110rem;
+  } */
   body {
     font-size: 1.6rem;
   }
