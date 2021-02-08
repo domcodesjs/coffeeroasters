@@ -100,3 +100,41 @@
   max-width: 28rem;
 }
 /* end quality */
+
+/* headquarters */
+.locations {
+  margin-top: 12rem;
+}
+
+.locations h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: var(--color-grey);
+}
+
+.locations__choices {
+  margin-top: 7.2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 8rem;
+}
+
+.locations__choices__item img {
+  display: block;
+  width: 4.8rem;
+  margin: 0 auto;
+}
+
+.locations__choices__item__content {
+  text-align: center;
+}
+
+.locations__choices__item__content h3 {
+  margin-top: 4.8rem;
+  font-size: 2.8rem;
+}
+
+.locations__choices__item__content ul {
+  margin-top: 2.4rem;
+}
+/* end headquarters */
