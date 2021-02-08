@@ -61,6 +61,7 @@ img {
 .wrapper {
   width: 95%;
   margin: 0 auto;
+  position: relative;
 }
 
 /* Small devices (landscape phones, 576px and up) */

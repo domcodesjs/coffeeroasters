@@ -91,6 +91,7 @@
   line-height: 1.1;
   max-width: 28rem;
   margin: 0 auto;
+  color: var(--color-light-cream);
 }
 
 .quality__content p {
@@ -98,6 +99,7 @@
   text-align: center;
   line-height: 1.5;
   max-width: 28rem;
+  color: var(--color-light-cream);
 }
 /* end quality */
 
