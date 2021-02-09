@@ -54,8 +54,7 @@
   .hero {
     padding: 13.7rem 8.5rem;
     background-image: url(../assets/about/desktop/image-hero-whitecup.jpg);
-    max-width: 110rem;
-    margin: 4.8rem auto 0 auto;
+    margin-top: 4.8rem;
   }
 
   .hero__content {
@@ -65,9 +64,6 @@
   .hero__content h1 {
     font-size: 4rem;
   }
-}
-
-@media (min-width: 1200px) {
 }
 /* end hero */
 
@@ -256,8 +252,10 @@
     height: 47.4rem;
   }
 
-  .quality__content__wrapper {
+  .quality__content__inner__wrapper {
     max-width: 111rem;
+    position: relative;
+    margin: 0 auto;
   }
 
   .quality__content {
