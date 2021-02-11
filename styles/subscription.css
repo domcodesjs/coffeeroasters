@@ -1,2 +1,25 @@
 @import 'base.css';
 @import 'shared.css';
+
+/* hero */
+.hero {
+  background-image: url(../assets/plan/mobile/image-hero-blackcup.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--color-light-cream);
+  text-align: center;
+  padding: 10rem 2.6rem 13.6rem 2.6rem;
+  border-radius: 1rem;
+  margin-top: 4rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero p {
+  margin-top: 2.4rem;
+  line-height: 1.5;
+}
+/* end hero */
