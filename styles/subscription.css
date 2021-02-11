@@ -23,3 +23,39 @@
   line-height: 1.5;
 }
 /* end hero */
+
+/* steps */
+.steps {
+  background-color: var(--color-dark-grey-blue);
+  padding: 8rem 2.4rem;
+  border-radius: 1rem;
+  margin-top: 12rem;
+}
+
+.steps__item {
+  max-width: 32rem;
+}
+
+.steps__item:nth-of-type(even) {
+  margin: 5.6rem 0;
+}
+
+.steps__item h2 {
+  font-size: 7.2rem;
+  color: var(--color-pale-orange);
+  text-align: center;
+}
+
+.steps__item h3 {
+  margin-top: 2.4rem;
+  font-size: 2.8rem;
+  color: var(--color-light-cream);
+  text-align: center;
+}
+
+.steps__item p {
+  margin-top: 2.4rem;
+  color: var(--color-light-cream);
+  text-align: center;
+}
+/* end steps */
