@@ -1,2 +1,3 @@
-.DS_Store
-.prettierignore
+.snowpack
+build
+node_modules
