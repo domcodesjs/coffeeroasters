@@ -1,30 +1,31 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Footer = () => {
   return (
     <div className='wrapper'>
       <StyledFooter>
-        <a href='/'>
+        <Link to='/'>
           <img
             className='footer__logo'
             src='/assets/shared/desktop/logo-white.svg'
             alt='Logo'
           />
-        </a>
+        </Link>
         <ul className='footer__site__links'>
           <li>
-            <a href='/'>Home</a>
+            <Link to='/'>Home</Link>
           </li>
           <li>
-            <a href='/about.html'>About us</a>
+            <Link to='/about'>About us</Link>
           </li>
           <li>
-            <a href='/subscribe.html'>Create your plan</a>
+            <Link to='/subscribe'>Create your plan</Link>
           </li>
         </ul>
         <ul className='footer__social__links'>
           <li>
-            <a href='#'>
+            <a href='https://www.google.com' rel='noreferrer' target='_blank'>
               <img
                 src='/assets/shared/desktop/icon-facebook.svg'
                 alt='Facebook'
@@ -32,7 +33,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a href='https://www.google.com' rel='noreferrer' target='_blank'>
               <img
                 src='/assets/shared/desktop/icon-twitter.svg'
                 alt='Twitter'
@@ -40,7 +41,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href='#'>
+            <a href='https://www.google.com' rel='noreferrer' target='_blank'>
               <img
                 src='/assets/shared/desktop/icon-instagram.svg'
                 alt='Instagram'

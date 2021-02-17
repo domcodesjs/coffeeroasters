@@ -5,13 +5,13 @@ const Nav = () => {
   return (
     <div className='wrapper'>
       <StyledNav className='nav'>
-        <a href='/'>
+        <Link to='/'>
           <img
             className='nav__logo'
             src='/assets/shared/desktop/logo.svg'
             alt='Logo'
           />
-        </a>
+        </Link>
         <ul className='nav__menu__desktop'>
           <li>
             <Link to='/'>Home</Link>

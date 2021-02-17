@@ -3,8 +3,8 @@ import styled from 'styled-components';
 const About = () => {
   return (
     <StyledDiv className='wrapper'>
-      <section class='hero'>
-        <div class='hero__content'>
+      <section className='hero'>
+        <div className='hero__content'>
           <h1>About us</h1>
           <p>
             Coffeeroasters began its journey of exotic discovery in 1999,
@@ -15,9 +15,9 @@ const About = () => {
         </div>
       </section>
 
-      <section class='commitment'>
-        <div class='commitment__img'></div>
-        <div class='commitment__content'>
+      <section className='commitment'>
+        <div className='commitment__img'></div>
+        <div className='commitment__content'>
           <h2>Our commitment</h2>
           <p>
             We’re built on a simple mission and a commitment to doing good along
@@ -35,10 +35,10 @@ const About = () => {
         </div>
       </section>
 
-      <section class='quality'>
-        <div class='quality__content__wrapper'>
-          <div class='quality__img'></div>
-          <div class='quality__content'>
+      <section className='quality'>
+        <div className='quality__content__wrapper'>
+          <div className='quality__img'></div>
+          <div className='quality__content'>
             <h2>Uncompromising quality</h2>
             <p>
               Although we work with growers who pay close attention to all
@@ -52,15 +52,15 @@ const About = () => {
         </div>
       </section>
 
-      <section class='locations'>
+      <section className='locations'>
         <h2>Our headquarters</h2>
-        <div class='locations__choices'>
-          <div class='locations__choices__item'>
+        <div className='locations__choices'>
+          <div className='locations__choices__item'>
             <img
               src='./assets/about/desktop/illustration-uk.svg'
               alt='United Kingdom'
             />
-            <div class='locations__choices__item__content'>
+            <div className='locations__choices__item__content'>
               <h3>United Kingdom</h3>
               <ul>
                 <li>68 Asfordby Rd</li>
@@ -70,12 +70,12 @@ const About = () => {
               </ul>
             </div>
           </div>
-          <div class='locations__choices__item'>
+          <div className='locations__choices__item'>
             <img
               src='./assets/about/desktop/illustration-canada.svg'
               alt='Canada'
             />
-            <div class='locations__choices__item__content'>
+            <div className='locations__choices__item__content'>
               <h3>Canada</h3>
               <ul>
                 <li>1528 Eglinton Avenue</li>
@@ -85,12 +85,12 @@ const About = () => {
               </ul>
             </div>
           </div>
-          <div class='locations__choices__item'>
+          <div className='locations__choices__item'>
             <img
               src='./assets/about/desktop/illustration-australia.svg'
               alt='Australia'
             />
-            <div class='locations__choices__item__content'>
+            <div className='locations__choices__item__content'>
               <h3>Australia</h3>
               <ul>
                 <li>36 Swanston Street</li>
