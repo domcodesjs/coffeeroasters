@@ -1,4 +1,7 @@
-:root {
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+  :root {
   --color-dark-cyan: #0e8784;
   --color-dark-grey-blue: #333d4b;
   --color-pale-orange: #fdd6ba;
@@ -64,18 +67,15 @@ img {
   position: relative;
 }
 
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 }
 
-/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .wrapper {
     width: 90%;
   }
 }
 
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   /* .wrapper {
     max-width: 110rem;
@@ -85,6 +85,9 @@ img {
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
+
+`;
+
+export default GlobalStyle;
